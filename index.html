@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Heart vs Melt 🫠</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body oncontextmenu="return false">
+
+    <!-- NAVBAR -->
+
+    <nav>
+        <ul>
+            <li>🫠❤️ Melting Heart Battle ❤️🫠</li>
+        </ul>
+    </nav>
+
+    <!-- GAME SECTION -->
+
+    <div class="gamecontainer">
+
+        <!-- TIC TAC TOE BOARD -->
+
+        <div class="container">
+
+            <div class="box bl-0 bt-0"><span class="boxtext"></span></div>
+            <div class="box bt-0"><span class="boxtext"></span></div>
+            <div class="box br-0 bt-0"><span class="boxtext"></span></div>
+
+            <div class="box bl-0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br-0"><span class="boxtext"></span></div>
+
+            <div class="box bl-0 bb-0"><span class="boxtext"></span></div>
+            <div class="box bb-0"><span class="boxtext"></span></div>
+            <div class="box br-0 bb-0"><span class="boxtext"></span></div>
+
+        </div>
+
+        <!-- GAME INFO -->
+
+        <div class="gameInfo">
+
+            <h1>Welcome to Heart vs Melt! ❤️🫠</h1>
+
+            <span class="info">
+                Loading...
+            </span>
+
+            <br>
+
+            <button class="reset" id="reset">
+                Reset Game 🔄
+            </button>
+
+            <!-- SCORE BOARD -->
+
+            <div class="scoreCard">
+
+                <h2>🏆 Score Board</h2>
+
+                <div class="scoreRow">
+                    <span id="player1Score">
+                        Player 1 : 0
+                    </span>
+                </div>
+
+                <div class="scoreRow">
+                    <span id="player2Score">
+                        Player 2 : 0
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- RANDOM WINNER GIF -->
+
+            <div class="imgbox">
+
+                <img
+                    id="winnerGif"
+                    src=""
+                    alt="Winner GIF"
+                    style="display:none;">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DRAW POPUP -->
+
+    <div id="drawPopup" class="popup">
+
+        <div class="popup-content">
+
+            <h2>🤝 DRAW 🤝</h2>
+
+            <p>
+                Heart and Melt are Equal! ❤️🫠
+            </p>
+
+            <button id="closePopup">
+                OK
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        Designed & Developed by Tanya ✨ <br>
+
+        © 2026 Tanya. All Rights Reserved.
+
+    </footer>
+
+    <!-- SCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
