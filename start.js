@@ -24,5 +24,5 @@ document.getElementById("startBtn")
     localStorage.setItem("emoji1", emoji1);
     localStorage.setItem("emoji2", emoji2);
 
-    window.location.href = "index.html";
+    window.location.href = "page.html";
 });
