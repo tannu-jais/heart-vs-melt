@@ -422,28 +422,35 @@ nav ul{
 }
 
 .footer{
-
     width:100%;
-
     margin-top:100px;
-
     padding:25px;
-
     text-align:center;
-
     background:linear-gradient(
         135deg,
         #fff0f8,
-        #f7e9ff
-    );
-
+        #f7e9ff );
     color:#c2185b;
-
     font-size:18px;
-
     font-weight:bold;
-
     line-height:1.8;
-
     border-top:3px solid #ffc2e2;
+}
+
+#v2Btn{
+margin-top:12px;
+padding:10px 18px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+font-size:15px;
+font-weight:700;
+background:#b388ff;
+color:#fff;
+transition:.3s;
+}
+
+#v2Btn:hover{
+background:#9c64ff;
+transform:translateY(-2px);
 }
