@@ -336,7 +336,7 @@ document.getElementById("closePopup")
     .style.display = "none";
 
 });
-document.getElementById("upgradeBtn").addEventListener("click",()=>{
+document.getElementById("v2Btn").addEventListener("click",()=>{
     window.open(
        "https://tannu-jais.github.io/heart-vs-melt-v2/","_blank"
 );
